@@ -36,8 +36,7 @@ CREATE TABLE IF NOT EXISTS `customer` (
 
 -- -- Display details of table 'customer'
 
-SELECT CUS_ID, CUS_NAME, CUS_PHONE, CUS_CITY, CUS_GENDER
-		FROM customer;
+SELECT CUS_ID, CUS_NAME, CUS_PHONE, CUS_CITY, CUS_GENDER FROM customer;
         
         
 -- 3) Table structure for table `orders`
@@ -56,8 +55,7 @@ CREATE TABLE IF NOT EXISTS `orders` (
 
 -- Display details of table 'orders'
 
-SELECT ORD_ID,  ORD_DATE, CUS_ID, PRICING_ID
-		FROM orders;
+SELECT ORD_ID,  ORD_DATE, CUS_ID, PRICING_ID FROM orders;
         
         
 --  4) Table structure for table `product`
@@ -73,8 +71,7 @@ CREATE TABLE IF NOT EXISTS `product` (
 
 -- Display details of table `product`
 
-SELECT PRO_ID, PRO_NAME, PRO_DESC, CAT_ID
-		FROM product;
+SELECT PRO_ID, PRO_NAME, PRO_DESC, CAT_ID FROM product;
 
 
 -- 5) Table structure for table `rating`
@@ -104,8 +101,7 @@ SELECT RAT_ID, ORD_ID, RAT_RATSTARS FROM rating;
 
 -- Display details of table `supplier`
 
-SELECT SUPP_ID, SUPP_NAME, SUPP_CITY, SUPP_PHONE
-		FROM supplier;
+SELECT SUPP_ID, SUPP_NAME, SUPP_CITY, SUPP_PHONE FROM supplier;
 
 
 -- 7) Table structure for table `supplier_pricing`
@@ -122,5 +118,4 @@ CREATE TABLE IF NOT EXISTS `supplier_pricing` (
 
 -- Display details of table `supplier_pricing`
 
-SELECT PRICING_ID, PRO_ID, SUPP_ID, SUPP_PRICE
-		FROM supplier_pricing;
+SELECT PRICING_ID, PRO_ID, SUPP_ID, SUPP_PRICE FROM supplier_pricing;
