@@ -51,7 +51,7 @@ to store the data for the E-commerce with the schema definition given below.
 
 <b> ANSWER : </b> DORM_Lab4_SolutionQuery8.sql
 
-<b>9)</b> 9)	Create a stored procedure to display supplier id, name, rating and Type_of_Service.
+<b>9)</b> Create a stored procedure to display supplier id, name, rating and Type_of_Service.
     
     For Type_of_Service-
     
